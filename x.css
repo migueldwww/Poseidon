@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #54A7E0;
+  scroll-behavior: smooth;
+}
+
+
+#areacomimagem {
+  background-image: url('imgs/poseidon1.jpg');
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  color: #133955;
+  text-align: center;
+
+  top: 0;
+}
+
+#areacomimagem h1 {
+  font-size: 50px;
+}
+
+.botao-links {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 80px;
+  border-radius: 12px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 370px;
+  font-size: 15px;
+}
+
+.botao-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.botao-links a:hover {
+  text-decoration: underline;
+}
+
+#quemsoueu {
+  width: 100vw;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-2 {
+  position: relative;
+  top: 75px;
+  left: 40px;
+  width: 325px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textoqse {
+  bottom: 325px;
+  left: 370px;
+  position: relative;
+  width: 977px;
+  height: auto;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#botaoqse {
+  position: relative;
+  top: 85px;
+  left: 320px;
+  padding: 10px 16px;
+  background-color: #0073C3;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quemitoesse {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  background-color: #54A7E0;
+  color: white;
+}
+
+.textos-q-m-e {
+  color: white;
+  font-size: 20px;
+  width: 60%;
+}
+
+.textos-q-m-e h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.textos-q-m-e h3 {
+  margin-top: 20px;
+  color: #005599;
+}
+
+.textos-q-m-e .descricao {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.textos-q-m-e ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.textos-q-m-e ul ul {
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.lado-direito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+.imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.botao-azul {
+  margin-top: 20px;
+  background-color: #000000;
+  color: black !important;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.indicacoes {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: white;
+  border: 4px solid gold;
+}
+
+.indicacoes h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+.imagens-linha {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+
+.imagens-linha figure {
+  width: 280px;
+  min-height: 500px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+}
+
+.imagens-indicacoes {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 17px;
+  border: 2px solid gold;
+}
+
+
+.galeria {
+  width: 100vw;
+  height: 1130px;
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+}
+
+.galeria h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.descricao {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.galeria img {
+  height: 283px;
+  width: 398px;
+}
+
+.tabela-galeria {
+  margin: 30px auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+}
+
+.posicao {
+  align-items: center;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.linha figure {
+  text-align: center;
+  border: 4px solid gold;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+
+.desenvolvedor {
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+.desenvolvedor h2 {
+  font-size: 47px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.conteudo-dev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.conteudo-dev img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.conteudo-dev p {
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: Cambria, serif;
+  text-align: justify;
+}
+
+.desenvolvedor-x {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.desenvolvedor-x figure {
+  text-align: center;
+}
+
+.desenvolvedor-x img {
+  width: 100px;
+  height: auto;
+}
+
+.desenvolvedor h3{
+  text-align: center;
+}
+
